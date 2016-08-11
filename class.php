@@ -4,6 +4,7 @@ class Abcd
 {
     public function getMe()
     {
+        $tmp = "abc";
         $sum = 0;
         for ($i = 0; $i < 10; $i++) {
             $sum = $sum + $i;
@@ -13,6 +14,6 @@ class Abcd
     }
 }
 
-$abc = new Abcd;
+$abc = new Abcd();
 
-print $abc->getMe();
+echo $abc->getMe();
