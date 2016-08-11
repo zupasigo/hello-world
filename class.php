@@ -10,7 +10,8 @@ class Abcd
             $sum = $sum + $i;
         }
         
-        $tmp = "sum = $sum \n";
+        $tmp = "sum = $sum";
+        $tmp2 = "sum = sum";
 
         return $sum;
     }
